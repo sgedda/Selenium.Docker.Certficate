@@ -3,7 +3,7 @@ This is a .NET CORE 5.0 App that uses Selenium and Docker to make it possible to
 
 # Local https certficates in .NET Core
 * dotnet dev-certs https --clean
-* dotnet dev-certs https -ep c:\certs\aspnetapp.pfx
+* dotnet dev-certs https -ep c:\certs\aspnetapp.pfx -p test
 * dotnet dev-certs https --trust
  
 (https://docs.microsoft.com/en-us/aspnet/core/security/docker-https?view=aspnetcore-5.0)
