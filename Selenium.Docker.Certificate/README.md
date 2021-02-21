@@ -1,10 +1,11 @@
 # Introduction 
 This is a .NET CORE 5.0 App that uses Selenium and Docker to make it possible to automatically retrieve a code from a server that must have a secure certificate installed on the client.
 
-# Local certficates in .NET Core
+# Local https certficates in .NET Core
 * dotnet dev-certs https --clean
 * dotnet dev-certs https -ep c:\certs\aspnetapp.pfx
 * dotnet dev-certs https --trust
+ 
 (https://docs.microsoft.com/en-us/aspnet/core/security/docker-https?view=aspnetcore-5.0)
 
 # Getting Started
